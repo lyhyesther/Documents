@@ -3,6 +3,12 @@ SCREEN , STATUS BAR
 https://github.com/apache/incubator-weex/blob/master/android/commons/src/main/java/com/alibaba/weex/commons/util/ScreenUtil.java
 
 
+SHADOW EFFECTS
+
+weex shadow effects
+https://github.com/apache/incubator-weex/blob/master/android/sdk/src/main/java/com/taobao/weex/utils/BoxShadowUtil.java
+
+
 BLUR EFFECTS
 
 weex blur effect:
