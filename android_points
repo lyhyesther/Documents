@@ -1,4 +1,8 @@
 
+SCREEN , STATUS BAR
+https://github.com/apache/incubator-weex/blob/master/android/commons/src/main/java/com/alibaba/weex/commons/util/ScreenUtil.java
+
+
 BLUR EFFECTS
 
 weex blur effect:
