@@ -13,5 +13,5 @@
           }
     
   And called it right after my super.onCreate() like:
-        super.onCreate(savedInstanceState);
-        adjustFontScale(getResources().getConfiguration());
+                      super.onCreate(savedInstanceState);
+                      adjustFontScale(getResources().getConfiguration());
