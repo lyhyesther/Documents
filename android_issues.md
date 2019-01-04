@@ -13,5 +13,11 @@
           }
     
   And called it right after my super.onCreate() like:
-                      super.onCreate(savedInstanceState);
-                      adjustFontScale(getResources().getConfiguration());
+  
+         @Override
+           protected void onCreate(@Nullable Bundle savedInstanceState) {
+               super.onCreate(savedInstanceState);
+               adjustFontScale(getResources().getConfiguration());
+               currentContext = this;
+           }
+ 
