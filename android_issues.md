@@ -1,5 +1,5 @@
 ##Android Font Issue
-1、prevent system font-size changing effects to android application
+1. Prevent system font-size changing effects to android application
 
        public void adjustFontScale(Configuration configuration) {
               if (configuration.fontScale > 1.00) {
