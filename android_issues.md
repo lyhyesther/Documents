@@ -18,6 +18,5 @@
            protected void onCreate(@Nullable Bundle savedInstanceState) {
                super.onCreate(savedInstanceState);
                adjustFontScale(getResources().getConfiguration());
-               currentContext = this;
            }
  
