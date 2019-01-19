@@ -21,3 +21,11 @@ NETWORK
 https://security.googleblog.com/2018/04/protecting-users-with-tls-by-default-in.html
 https://developer.android.com/training/articles/security-config
 
+
+
+
+Proguard
+
+common sdk proguard config:
+https://www.jianshu.com/p/90feb5c50cce
+
