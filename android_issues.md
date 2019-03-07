@@ -21,4 +21,5 @@
            }
  
 ## Android API Level Issue
-1、Android 5.1 不支持drawable 中的item的gravity 属性的right|top bottom|left ...写法 ，在vivo Android 5.1 上测试，
+1、Android 5.1 不支持drawable 中的item的gravity 属性的right|top bottom|left ...写法 ，在vivo Android 5.1 上测试；grivaty在Android 6.0及以上支持。
+ the gravity (and size) property for LayerDrawable  added in API level 23.
