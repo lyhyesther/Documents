@@ -26,6 +26,10 @@ uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
  long now = System.currentTimeMillis();
  long start = now - 24 * 60 * 60 * 1000L;
  List<UsageStats> usageStatsList = null;
+ //API 21
  usageStatsList = usageStatsManager.queryUsageStats(UsageStatsManager.INTERVAL_DAILY, start, now);
+ 
+ //API 21 获取用户的使用事件，包括打开了哪些应用，进入了该应用的哪些页面  以及在改页面的停留时间
+ UsageEvents usageEvents = usageStatsManager.queryEvents(start, now);
 </pre>
 
