@@ -11,7 +11,8 @@ mac地址不可信
 锤子手机，开启4G高速网络后，会重启设备，获取的mac值发生变化
 
 # Android设备设置界面打开
-1、有权查看使用情况
+### 1、有权查看使用情况
+<pre>
 当应用需要查看设备上应用的使用情况的时候，可以打开该权限。
 ①应用需要在manifest中声明权限
  <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
@@ -24,3 +25,5 @@ mac地址不可信
  long start = now - 24 * 60 * 60 * 1000L;
  List<UsageStats> usageStatsList = null;
  usageStatsList = usageStatsManager.queryUsageStats(UsageStatsManager.INTERVAL_DAILY, start, now);
+</pre>
+
