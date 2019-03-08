@@ -15,8 +15,10 @@ mac地址不可信
 <pre>
 当应用需要查看设备上应用的使用情况的时候，可以打开该权限。
 ①应用需要在manifest中声明权限
+<pre>
  <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
- 注意：该权限使用校验权限的方式去获取权限是否打开，总是返回的权限拒绝。当权限拒绝时，queryUsageStats返回的集合大小总是0，因此当集合大小为0的时候，权限就可能被拒绝了
+</pre>
+注意：该权限使用校验权限的方式去获取权限是否打开，总是返回的权限拒绝。当权限拒绝时，queryUsageStats返回的集合大小总是0，因此当集合大小为0的时候，权限就可能被拒绝了
 ②引导用户去打开权限
  startActivity(new Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS));
 ③获取使用情况列表
