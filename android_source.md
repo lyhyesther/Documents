@@ -16,4 +16,5 @@ https://github.com/danielzeller/Depth-LIB-Android-
 https://github.com/gcacace/android-signaturepad
 https://github.com/WritingMinds/ffmpeg-android-java
 https://github.com/aserbao/AndroidCamera
+https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/
 
